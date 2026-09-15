@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0d240c;
+    color: rgb(248, 247, 246);
+    text-align: center;
+    padding: 10px;
+
+}
+
+h1 {
+    padding:10px;
+}
+
+p{
+    padding: 10px;
+}
+
+a {
+    color:rgb(57, 185, 32)
+}
+
+table{
+ margin: auto;   
+}
+
+img {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+img:active {
+    transform: scale(0.95);
+}
+
+.container{
+    width:80%;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
